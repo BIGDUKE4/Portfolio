@@ -1,0 +1,33 @@
+body{
+    background-color: red;
+}
+h1 {
+    color: yellow;
+}
+p {
+    color: yellow;
+    font-size: xx-large;
+}
+ul {
+    color: yellow;
+    font-size: xx-large;
+    list-style-position: inside;
+    text-align: center;
+}
+a { color:red } /* Globally */
+
+/* Each state */
+
+a:visited { text-decoration: none; color:yellow; }
+a:hover { text-decoration: none; color:yellow; }
+a:focus { text-decoration: none; color:yellow; }
+a:hover, a:active { text-decoration: none; color:yellow }
+
+.grid-container {
+    display: grid;
+    column-gap: 50px;
+}
+h1 {
+    text-align: center;
+    color: yellow;
+}
